@@ -3,17 +3,110 @@ body {
     font-family: 'Manrope', sans-serif;
     color: #18191F;
     box-sizing: border-box;
+    background-color: #fa5509;
 }
 
 h1, h2, h3, h4, p{
     margin: 0;
 }
 
-img{
-    margin-bottom: -5px;
-}
-
 .container{
     margin: 0 auto;
     width: 1110px;
+}
+
+img{
+    margin-bottom: -5px;
+    display: inline-block;
+}
+
+#quotes{
+    margin-left: 450px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.block_left{
+    background-color: #312ece;
+    width: 445px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.block_right{
+    width: 570px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 32px;
+}
+
+.block_right_person{
+    width: 239px;
+    margin-left: 40px;
+    margin-right: 275px;
+    margin-top: 26px;
+    height: 58px;
+    margin-bottom: 24px;
+}
+
+#girl{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block_right_person_text{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+.block_right_text{
+    width: 490px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 48px;
+}
+
+#gopro{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+    margin-right: 278px;
+    margin-bottom: 40px;
+}
+
+#left{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 53px;
+}
+
+#right{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 53px;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 48px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#name{
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+#post{
+    font-weight: 400;
+    font-size: 14px;
+    
 }
