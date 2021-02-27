@@ -3,7 +3,7 @@ body {
     font-family: 'Manrope', sans-serif;
     color: #18191F;
     box-sizing: border-box;
-    background-color: #fa5509;
+    background-color: #D5FAFC;
 }
 
 h1, h2, h3, h4, p{
@@ -12,6 +12,7 @@ h1, h2, h3, h4, p{
 
 .container{
     margin: 0 auto;
+    background-color: #2EC5CE;
     width: 1110px;
 }
 
@@ -27,19 +28,27 @@ img{
 }
 
 .block_left{
-    background-color: #312ece;
+    background-color:#2EC5CE;
     width: 445px;
     display: inline-block;
     vertical-align: middle;
     margin-right: -4px;
+    margin-left: 90px;
+}
+
+#happy{
+    margin-bottom: 8px;
+
 }
 
 .block_right{
-    width: 570px;
+    width: 570.5px;
     background-color: #FFFFFF;
     display: inline-block;
     vertical-align: middle;
-    margin-top: 32px;
+    margin-left: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .block_right_person{
@@ -81,12 +90,15 @@ img{
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 53px;
+    
 }
 
 #right{
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 53px;
+    margin-left: 40px;
+    
 }
 
 h2{
