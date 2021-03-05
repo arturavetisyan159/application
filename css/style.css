@@ -85,5 +85,27 @@ button{
     font-weight: 700;
     cursor: pointer;
     outline: none;
-    border: 0;
+    border: 1px solid #8C30F5;
+    padding: 12px 24px;
+    border-radius: 48px ;
+}
+
+button:hover{
+    color: #6717c2;
+    border-color: #6717c2;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:focus{
+    color: #480a8f;
+    border-color: #480a8f;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover svg path{
+    fill: #6717c2;
+}
+
+button:focus svg path{
+    fill: #480a8f;
 }
