@@ -11,9 +11,49 @@ h1, h2, h3, h4, p{
 
 img{
     margin-bottom: -5px;
+    display: inline-block;
+    margin-right: -4px;
 }
 
 .container{
     margin: 0 auto;
-    width: 1110px;
+    max-width: 1110px;
 }
+
+.images{
+    width: 540px;
+    display: inline-block;
+}
+
+.top{
+    display: inline-block;
+    width: 540px;
+}
+
+.bottom{
+    display: inline-block;
+    width: 540px;
+    position: relative;
+}
+
+.bottom img:nth-child(1){
+    position: relative;
+    bottom: 71px;
+}
+
+.bottom img:nth-child(2){
+    margin-left: 20px;
+}
+
+.top img:nth-child(2){
+    margin-left: 20px;
+}
+
+.top{
+    margin-bottom: 20px;
+}
+
+
+
+
+
