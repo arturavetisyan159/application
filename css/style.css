@@ -127,6 +127,29 @@ svg{
 
 #last_svg{
     display: block;
+    cursor: pointer;
 }
 
+#last_svg:hover{
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+}
 
+img:hover{
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#last_svg:hover path{
+    fill: #6717c2;
+}
+
+#last_svg:hover #buy{
+    fill: white;
+}
+
+#last_svg:focus path{
+    fill: #480a8f;
+}
+
+#last_svg:focus #buy{
+    fill: white;
+}
