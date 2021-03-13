@@ -1,73 +1,62 @@
-.network{
-	background-color: #F7F9FB;
-}
-
-.upper_menu{
-	width: 100%;
-	background-color: #F4F4F4;
-	z-index: 0;
-	height: 80px;
-	display: inline-block;
+.network {
+	padding: 39px 0;
 }
 
 .container{
-	margin-top: 145px;
+	background-color: grey;
 }
 
-.network-menu{
+.network-menu {
 	background-color: #ffffff;
 	border-radius: 4px;
 	overflow: hidden;
 }
 
-a.network-menu_link{
+a.network-menu__link {
 	padding: 13px 30px;
-	border-bottom: 1px solid #f4f4f4;
+	border-bottom: 1px solid #F4F4F4;
 	color: #181818;
 	font-size: 12px;
 	font-weight: 600;
 	text-transform: uppercase;
-
+	position: relative;
 }
 
-.network-menu_link:hover,
-.network-menu_link:focus{
-	border-left: 10px solid #0275B1;
+.network-menu__link span {
+	position: absolute;
+	right: 30px;
+}
+
+.network-menu__link:hover,
+.network-menu__link:focus {
 	padding: 13px 20px;
-	color: #5c5c5c;
+	border-left: 10px solid #0275B1;
 }
 
-.network-menu :nth-child(6) a{
+.network-menu :nth-child(6) a {
 	border-bottom: 0;
-	
 }
 
-#archieve{
+svg {
 	margin-right: 11px;
 }
 
-.logo{
-	padding-left: 40px;
-	padding-top: 17px;
-	padding-bottom: 17px;
-	padding-right: 43px;
-	margin-right: 2px;
-	display: inline-block;
-	background-color: white;
+.network-menu__item:hover svg path,
+.network-menu__item:hover .network-menu__link {
+	stroke: #747474;
+	color: #747474;
 }
 
-.divisions{
-	display: inline-block;
-	
+.network-menu__link:focus svg path,
+.network-menu__link:focus {
+	stroke: #747474;
+	color: #747474;
 }
 
-.divisions_el{
-	display: inline-block;
-	width: 90px;
-	height: 80px;
-	background-color: #ffffff;
-	
-}
+<!--/боковая панель--!?>
+
+
+
 
 
 
