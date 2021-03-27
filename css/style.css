@@ -2,22 +2,52 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     color: #18191F;
-    
 }
 
 .container-1{
     background-image: url(../img/back.jpeg);
     background-repeat: no-repeat;
     position: relative;
-    height: 800px;
+    height: 100vh;
     width: 666px;
     /* padding: 64px 111px 0px 82px; */
-    
 }
 
-.logo-text{
-    /* padding-top: 276px; */
-    /* padding-right: 111px; */
+#logo{
+    position: absolute;
+    top: 64px;
+    left: 71px;
+}
+
+.container-1__wrapper{
+    position: absolute;
+    top: 50%;
+    margin-top: -95px;
+    left: 50%;
+    margin-left: -236px;
+}
+
+.container-1__wrapper p{
+    width: 473px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+#vincent{
+    display: inline-block;
+    width: 101px;
+    line-height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.container-1__wrapper svg{
+    display: block;
+    position: absolute;
+    right: 0;
 }
 
 .container-2{
