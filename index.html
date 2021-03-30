@@ -15,8 +15,8 @@
 </head>
 <body>
     <section class="network">
-        <div class="row">
-            <div class="col-6">
+        <div class="row no-gutters">
+            <div class="col-5">
                 <div class="container-1">
                     <img id="logo" src="img/logo.svg" alt="">
                     <div class="container-1__wrapper">
@@ -31,7 +31,7 @@
                 <!--контейнер пользователя -->
             </div>
 
-            <div class="col-6">
+            <div class="col-7">
                 <div class="container-2">
                     <div class="container-2_register">
                         <div class="row justify-content-between">
@@ -48,19 +48,21 @@
                                 <span>Personal Info.</span>
                             </div>
                         </div>
-                        <div class="registred">
-                            <p>Register Individual Account!</p>
-                            <p>For the purpose of industry regulation, your details are required.</p>
-                            <form action="#">
-                                <label class="form-registered" for="fullname">Your fullname*</label>
-                                <input type="text" id="fullname">
+                        <div class="container-2_registred">
+                            <div class="col-5 offset-md-1">
+                                <h1>Register Individual Account!</h1>
+                                <p>For the purpose of industry regulation, your details are required.</p>
+                                <form action="#">
+                                    <label class="form-registered" for="fullname">Your fullname*</label>
+                                    <input type="text" id="fullname" placeholder="Enter your fullname">
 
-                                <label class="form-registered" for="email">Email adress</label>
-                                <input type="email" id="email">
+                                    <label class="form-registered" for="email">Email adress*</label>
+                                    <input type="email" id="email" placeholder="Enter email address">
 
-                                <label class="form-registered" for="password">Create password</label>
-                                <input type="password" id="password">
-                            </form>
+                                    <label class="form-registered" for="password">Create password*</label>
+                                    <input type="password" id="password" placeholder="Enter password">
+                                </form>
+                            </div>
                         </div>
                     </div>
 
