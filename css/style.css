@@ -50,20 +50,56 @@ body {
     right: 0;
 }
 
- /*  */
+ /* Конец левого блока */
+
+ /* начало правого блока */
 
 .container-2{
     padding: 75px 91px 0px 60px;
     display: inline-block;
 }
 
-.container-2 h1{
+.container-2_back{
+    cursor: pointer;
+}
+
+.container-2_back img,
+.container-2_back span{
+    vertical-align: middle;
+    color: #8692A6;
+}
+
+.container-2_back span{
+    padding-left: 14px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-2_step{
+    font-size: 14px;
+    font-weight: 500;
+    color: #bdbdbd;
+    text-transform: uppercase;
+}
+
+.container-2_personal{
+    font-size: 16px;
+    font-weight: 600;
+    color: #8692A6;
+}
+
+.container-2_registred{
+    padding-top: 78px;
+    width: 774px;
+}
+
+.container-2_registered h1{
     width: 427px;
     font-weight: bold;
     font-size: 30px;
 }
 
-.container-2 p{
+.container-2_registered p{
     width: 441px;
     font-weight: normal;
     font-size: 18px;
@@ -81,11 +117,8 @@ input{
     border-radius: 6px;
 }
 
-.container-2_registred{
-    padding-top: 78px;
-    width: 774px;
-}
-
 .form-registered{
     display: block;
 }
+
+/* Конец правого блока */
