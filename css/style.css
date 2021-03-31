@@ -93,31 +93,62 @@ body {
     width: 774px;
 }
 
-.container-2_registered h1{
+.container-2_registred h1{
     width: 427px;
     font-weight: bold;
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
-.container-2_registered p{
+.container-2_registred p{
     width: 441px;
     font-weight: normal;
     font-size: 18px;
     color: #696f79;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f5f5f5;
+
+}
+
+label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #696f79;
+    margin-bottom: 14px;
 }
 
 input{
     display: block;
+    padding: 24px 0px 24px 30px;
     width: 426px;
-    height: 64px;
-    margin-bottom: 24px;
-    margin-top: 14px;
     border: 1px solid #8692a6;
     box-sizing: border-box;
     border-radius: 6px;
+    margin-bottom: 24px;
+    outline: none;
+    color: #494949;
+    font-weight: 500;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    transition: .3s;
 }
 
-.form-registered{
+input::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+    color: #8692A6;
+}
+
+input:hover,
+input:focus{
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0);
+    border-color:#1565D8;
+    transition: .3s;
+}
+
+.form-registred{
     display: block;
 }
 
