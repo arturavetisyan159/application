@@ -148,8 +148,86 @@ input:focus{
     transition: .3s;
 }
 
+.container-2_conditions{
+    margin-bottom: 39px;
+    position: relative;
+}
+
+.container-2_conditions label{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    padding-left: 32px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    vertical-align: middle;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+    left: 0;
+}
+
+.container-2_label:hover .checkmark,
+.checkmark:hover{
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0);
+    border-color:#1565D8;
+    transition: .3s;
+}
+
+.container-2_label input:checked ~ .checkmark{
+    background-color: #1565D8;
+}
+
+.container-2_label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container-2_label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container-2_label .checkmark::after {
+    left: 5px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checkmark{
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #8692A6;
+}
+
 .form-registred{
     display: block;
 }
+
+
 
 /* Конец правого блока */
