@@ -228,6 +228,17 @@ input[type="checkbox"]{
     display: block;
 }
 
-
-
 /* Конец правого блока */
+/*  Переходим к медиа запросам */
+
+@media screen and (max-width: 1920px) {
+    h1{
+        background-color: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        background-color: orange;
+    }
+}
