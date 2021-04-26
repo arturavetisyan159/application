@@ -126,6 +126,7 @@ img{
 .container-2{
     width: 1110px;
     margin: 0 auto;
+    padding-bottom: 220px;
 }
 
 .container-2_text{
@@ -217,7 +218,7 @@ img{
     cursor: pointer;
 }
 
-.learn{
+.learn-2{
     position: absolute;
     left: 30%;
     top: 30%;
@@ -227,3 +228,203 @@ img{
 }
 
 /* The end of the SECOND section */
+
+/* The beginning of the THIRD section */
+.container-3{
+    width: 1273px;
+    margin: 0 auto;
+    padding-bottom: 229px;
+}
+
+.main-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-3_text{
+    display: flex;
+    flex-direction: column;
+    width: 481px;
+    padding-top: 10px;
+}
+
+.leading-3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.line-3{
+    padding-bottom: 31px;
+}
+
+.trafalgar-3{
+    width: 450px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    padding-bottom: 40px;
+}
+
+.container-3_button{
+    position: relative;
+    cursor: pointer;
+    width: 200px;
+}
+
+.learn-3{
+    position: absolute;
+    left: 52px;
+    top: -2px;
+    color: #458FF6;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+}
+/* The end of the THIRD section */
+
+/* The beginning of the FOURTH section */
+.container-4{
+    margin: 0 auto;
+    width: 1156px;
+    padding-bottom: 266px;
+}
+
+.main-4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-4_text{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.download-4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 15px;
+}
+
+.line-4{
+    padding-bottom: 31px;
+}
+
+.our-4{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    padding-bottom: 40px;
+}
+
+.container-4_button{
+    position: relative;
+    width: 200px;
+}
+
+.download-4_span{
+    position: absolute;
+    left: 23%;
+    top: -1%;
+    color: #458FF6;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.arrow-4{
+    position: absolute;
+    right: 22%;
+    top: 33%;
+}
+/* The end of the FOURTH section */
+
+/* The beginning of the FIVETH section */
+.container-5{
+    width: 1120px;
+    margin: 0 auto;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    position: relative;
+    margin-bottom: 223px;
+}
+
+.what-5{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-top: 64px;
+    padding-bottom: 10px;
+}
+
+.line-5{
+    position: relative;
+    left: 48%;
+}
+
+.container-5_blocks{
+    width: 880px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 67px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.container-5_1block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 354px;
+}
+
+.man-5_info{
+    width: 184px;
+
+}
+
+.name-5{
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.founder-5{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.our-5{
+    width: 420px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.dots-5_1{
+    position: absolute;
+    left: -20%;
+    z-index: -1;
+    bottom: 21%;
+}
+
+.dots-5_2{
+    position: absolute;
+    right: -4%;
+    top: -4%;
+}
+/* The end of the FIVETH section */
+
+/* The beginning of the SIXTH section */
