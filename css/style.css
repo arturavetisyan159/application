@@ -3,6 +3,7 @@ body {
     font-family: 'Manrope', sans-serif;
     color: #18191F;
     box-sizing: border-box;
+    background-color: grey;
 }
 
 h1, h2, h3, h4, p{
@@ -14,6 +15,77 @@ img{
 }
 
 .container{
-    margin: 0 auto;
-    width: 1110px;
+    margin: 10px auto;
+    width: 1120px;
+}
+
+.customer-slider_wrapper{
+    padding: 64px 118px 64px 118px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    box-sizing: border-box;
+    border-radius: 24px;
+    outline: none;  /* убирает обводку */
+}
+
+h1{
+    margin-bottom: 94px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.customer-slider_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer-slider_img{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    margin-right: 29px;
+}
+
+p{
+    max-width: 420px;
+}
+
+/* НАстройка slick слайдера */
+
+.slider-arrow {
+    position: absolute;
+    bottom: -42px;
+    z-index: 99;
+    width: 29px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.slider-arrow__left{
+    background: url(../img/arrow-left.png) center no-repeat;
+    right: 50%;
+    margin-right: 100px;
+}
+
+.slider-arrow__right{
+    background: url(../img/arrow-right.png) center no-repeat;
+    left: 50%;
+    margin-left: 100px;
+}
+
+/* перебивка точек слайдера */
+
+.slick-dots{
+    bottom: -42px;
+}
+
+.slick-dots li button:before{
+    content: '';
+    background: url(../img/dot-active.png) center no-repeat;
 }
