@@ -425,6 +425,44 @@ img{
     right: -4%;
     top: -4%;
 }
+
+.customer-slider_wrapper{
+    outline: none;
+}
+
+    /* настройка слайдера */
+.slider-arrow{
+    position: absolute;
+    bottom: -42px;
+    z-index: 99;
+    width: 29px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.slider-arrow__left{
+    background: url(../img/arrow-left-slider.png) center no-repeat;
+    right: 50%;
+    margin-right: 125px;
+}
+
+.slider-arrow__right{
+    background: url(../img/arrow-right-slider.png) center no-repeat;
+    left: 50%;
+    margin-left: 125px;
+}
+
+    /* Перебивка точек слайдера */
+
+.slick-dots{
+    bottom: -42px;
+}
+
+.slick-dots li button::before{
+    content: '';
+    background: url(../img/dot-active.png) center no-repeat;
+}
+
 /* The end of the FIVETH section */
 
 /* The beginning of the SIXTH section */
