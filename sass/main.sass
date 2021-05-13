@@ -1,0 +1,104 @@
+/* Привязка к родительскому селектору */
+a
+    font-weight: normal
+    text-decoration: none
+    &:hover
+        text-decoration: underline
+
+    body.firefox &
+        font-size: 18px
+
+#main
+    color: black
+    a
+        font-weight: normal
+        &:hover
+            color: black
+
+/* вложенные свойства */
+.selector
+    margin: 
+        top: 10px
+        bottom: 15px
+        left: 5px
+        right: 14px
+    padding: 
+        top: 21px
+        bottom: 15px
+        left: 5px
+        right: 14px
+/* селекторы шаблоны */
+
+
+/* sasscrypt */
+$summ: 10 + 20 / 2
+$cn: content
+$in: интер
+
+.selector
+    margin: 
+        top: $summ + px
+    #{$cn}: "#{$cn}tent" + "ment"
+
+ .interpol
+    content: "#{$in}поляция"
+
+/* Переменные sass */
+$primary-bg-color: #0E6795
+$primary-text-color: #ffffff
+
+$secondary-bg-color: transparent
+$secondary-text-color: #c9c9c9
+
+%main-button
+    font-size: 12px
+    font-weight: 500
+    padding: 
+        top: 10px
+        bottom: 10px
+        right: 20px
+        left: 20px
+    outline: none
+    cursor: pointer
+    border-radius: 4px
+    border: 1px solid black
+    text-transform: uppercase
+
+.first-button
+    background: $primary-bg-color
+    color: $primary-text-color
+    @extend %main-button
+    &:hover
+        background: darken($primary-bg-color, 10%)
+
+
+.second-button
+    border: 1px solid grey
+    background: transparent
+    color: $secondary-text-color
+    @extend %main-button
+
+/* директива import */
+
+
+/* директива @at-root */
+.selector
+    margin-top: 10px
+    @at-root 
+        .item
+            background-color: white
+/* @if() */
+$let: 5
+
+.selector
+    @if $let >= 5
+        content: ">= 5"
+    @else if $let <= 5
+        content: "<= 5"
+    @else 
+        content: ""
+
+/* директива for. Выводит блок со стилями определенное количество раз */
+@for $i from 1 to 11
+    .item-#{$i}
+        background-color: red

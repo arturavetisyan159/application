@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* Привязка к родительскому селектору */
+a {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body.firefox a {
+  font-size: 18px;
+}
+
+#main {
+  color: black;
+}
+
+#main a {
+  font-weight: normal;
+}
+
+#main a:hover {
+  color: black;
+}
+
+/* вложенные свойства */
+.selector {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 14px;
+  padding-top: 21px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 14px;
+}
+
+/* селекторы шаблоны */
+/* sasscrypt */
+.selector {
+  margin-top: 20px;
+  content: "contenttentment";
+}
+
+ .interpol {
+  content: "интерполяция";
+}
+
+/* Переменные sass */
+.first-button, .second-button {
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid black;
+  text-transform: uppercase;
+}
+
+.first-button {
+  background: #0E6795;
+  color: #ffffff;
+}
+
+.first-button:hover {
+  background: #0a4766;
+}
+
+.second-button {
+  border: 1px solid grey;
+  background: transparent;
+  color: #c9c9c9;
+}
+
+/* директива import */
+/* директива @at-root */
+.selector {
+  margin-top: 10px;
+}
+
+.item {
+  background-color: white;
+}
+
+/* @if() */
+.selector {
+  content: ">= 5";
+}
+
+/* директива for. Выводит блок со стилями определенное количество раз */
+.item-1 {
+  background-color: red;
+}
+
+.item-2 {
+  background-color: red;
+}
+
+.item-3 {
+  background-color: red;
+}
+
+.item-4 {
+  background-color: red;
+}
+
+.item-5 {
+  background-color: red;
+}
+
+.item-6 {
+  background-color: red;
+}
+
+.item-7 {
+  background-color: red;
+}
+
+.item-8 {
+  background-color: red;
+}
+
+.item-9 {
+  background-color: red;
+}
+
+.item-10 {
+  background-color: red;
+}
+/*# sourceMappingURL=main.css.map */
