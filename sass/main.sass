@@ -1,0 +1,18 @@
+/* два варианта написания sass- базовый и scss(расширенный) */
+
+/* правило вложенности */
+$font-stack: Manrope, sans-serif
+$primary-color: #333
+
+.feature
+    background-color: #000
+    &-block
+        padding-bottom: 20px
+        color: blue
+        &_title
+            font-size: 14px
+            font-weight: 500
+        &_subtitle
+            color: green
+            background-color: yellow
+

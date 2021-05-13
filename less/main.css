@@ -1,0 +1,19 @@
+/* Цветовые функции */
+button {
+  padding: 10px ;
+  background-color: #F1E2FF;
+  border: 1px solid;
+  border-radius: 7px;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  outline: none;
+}
+button:hover {
+  border: 1px solid black;
+  color: white;
+  background-color: #c07cff;
+}
+button:focus {
+  background-color: #8f16ff;
+}

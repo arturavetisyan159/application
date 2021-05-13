@@ -1,0 +1,23 @@
+/* Цветовые функции */
+
+@purple: #F1E2FF;
+
+button{
+    padding: 10px ;
+    background-color: @purple;
+    border: 1px solid;
+    border-radius: 7px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    border: 1px solid black;
+    color: white;
+    background-color: darken(@purple, 20%);
+}
+button:focus{
+    background-color: darken(@purple,40%);
+}
