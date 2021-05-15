@@ -1,6 +1,9 @@
+/* FONTS */
+/*COLORS*/
 body {
   margin: 0;
   box-sizing: border-box;
+  background-color: #F9FDFF;
 }
 
 h1, h2, h3, h4, p {
@@ -11,8 +14,6 @@ img {
   margin-bottom: -5px;
 }
 
-/* FONTS */
-/*COLORS*/
 /* FONTS */
 /*COLORS*/
 header .header-left__wrapper-text {
@@ -26,7 +27,6 @@ header {
 }
 
 header .header-left {
-  background-color: #F9FDFF;
   width: 63%;
   padding-top: 90px;
 }
@@ -51,7 +51,6 @@ header .header-left__wrapper .header-left__logo {
 }
 
 header .header-right {
-  background-color: #FCEAE8;
   width: 37%;
   padding-top: 86px;
 }
