@@ -1,0 +1,38 @@
+@import "_variables"
+
+%header-text
+    font: $font-400-sm-op
+    line-height: 19px
+    color: #303032
+
+header
+    display: flex
+    .header-left
+        background-color: $blue-bg-color
+        width: 63%
+        padding-top: 90px
+        &__wrapper
+            display: flex
+            justify-content: space-between
+            padding-right: 27%
+            padding-left: 15%
+            &-text
+                display: flex
+                width: 72%
+                justify-content: space-between
+                text-transform: uppercase
+                @extend %header-text
+                padding-top: 2px
+            .header-left__logo
+                padding-right: 27%
+    .header-right
+        background-color: $rose-bg-color 
+        width: 37%
+        padding-top: 86px
+        &__wrapper
+            display: flex
+            justify-content: flex-end
+            padding-right: 20%
+        &__find
+            padding-right: 22px
+            
