@@ -1,21 +1,5 @@
 /* FONTS */
 /*COLORS*/
-body {
-  margin: 0;
-  box-sizing: border-box;
-  background-color: #F9FDFF;
-}
-
-h1, h2, h3, h4, p {
-  margin: 0;
-}
-
-img {
-  margin-bottom: -5px;
-}
-
-/* FONTS */
-/*COLORS*/
 header .header-left__wrapper-text {
   font: 400 14px "Open sans", sans-serif;
   line-height: 19px;
@@ -67,4 +51,77 @@ header .header-right__find {
 
 /* FONTS */
 /*COLORS*/
+.first {
+  padding-top: 100px;
+}
+
+.container-1 {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.furniture-slider__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.furniture-slider__wrapper .container-1-text {
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+}
+
+.furniture-slider__wrapper .container-1-text h1 {
+  font: 700 57px "Playfair Dislay", serif;
+  text-transform: uppercase;
+  line-height: 82px;
+  color: #303032;
+  padding-bottom: 35px;
+}
+
+.furniture-slider__wrapper .container-1-text p {
+  font: 400 20px "Open sans", sans-serif;
+  color: #303032;
+  line-height: 27px;
+  padding-bottom: 10px;
+}
+
+.furniture-slider__wrapper .container-1-text__price {
+  padding-bottom: 35px;
+}
+
+.furniture-slider__wrapper .container-1-text__price #first-380 {
+  font: 400 20px "Open sans", sans-serif;
+  color: #303032;
+}
+
+.furniture-slider__wrapper .container-1-text__price #first-240 {
+  font: 600 30px "Open sans", sans-serif;
+  color: #303032;
+}
+
+.furniture-slider__wrapper .container-1-text button {
+  width: 238px;
+  height: 58px;
+  text-transform: uppercase;
+  font: 400 16px "Open sans", sans-serif;
+  color: #ffffff;
+  background-color: #303032;
+  border: none;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #F9FDFF;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+img {
+  margin-bottom: -5px;
+}
 /*# sourceMappingURL=main.css.map */
