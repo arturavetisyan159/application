@@ -22,12 +22,20 @@ header .header-left__wrapper {
   padding-left: 15%;
 }
 
+header .header-left__wrapper .header-left__logo {
+  cursor: pointer;
+}
+
 header .header-left__wrapper-text {
   display: flex;
   width: 72%;
   justify-content: space-between;
   text-transform: uppercase;
   padding-top: 2px;
+}
+
+header .header-left__wrapper-text .header-left__text {
+  cursor: pointer;
 }
 
 header .header-left__wrapper .header-left__logo {
@@ -43,10 +51,12 @@ header .header-right__wrapper {
   display: flex;
   justify-content: flex-end;
   padding-right: 20%;
+  cursor: pointer;
 }
 
 header .header-right__find {
   padding-right: 22px;
+  cursor: pointer;
 }
 
 /* FONTS */
@@ -109,6 +119,15 @@ header .header-right__find {
   color: #ffffff;
   background-color: #303032;
   border: none;
+  cursor: pointer;
+}
+
+.furniture-slider__wrapper .container-1-text button:hover {
+  background-color: #171718;
+}
+
+.furniture-slider__wrapper .container-1-text button:focus {
+  background-color: #555559;
 }
 
 body {
