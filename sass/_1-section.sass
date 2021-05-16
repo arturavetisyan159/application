@@ -1,6 +1,7 @@
 @import "_variables"
 .first
     padding-top: 100px
+    padding-bottom: 120px
 
 .container-1
     width: 1140px
@@ -8,12 +9,14 @@
 
 .furniture-slider__wrapper
     display: flex
-    justify-content: space-between
+    justify-content: flex-start
     align-items: center
     .container-1-text
         display: flex
         flex-direction: column
+        padding-right: 12px
         height: 360px
+        width: 545px
         h1
             font: $font-700-lg-pl
             text-transform: uppercase
@@ -46,5 +49,39 @@
                 background-color: darken(#303032, 10%)
             &:focus
                 background-color: lighten(#303032, 15%)
-                
+
+/* НАСТРОЙКА slick-slider */
+
+.slick-initialized
+    .slick-slide
+        display: flex
+
+/* Настройка точек */
+.furniture-slider
+    .slick-dots
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        bottom: 187px
+        right: 63px
+        width: 28px
+        height: 205px
+        li
+            height: 51px
+            button
+                width: 20px
+                height: 58px
+            #slick-slide-control00:before
+                content: '01'
+                font: $font-400-md-pl
+            #slick-slide-control01:before
+                content: '02'
+                font: $font-400-md-pl
+            #slick-slide-control02:before
+                content: '03'
+                font: $font-400-md-pl
+            #slick-slide-control03:before
+                content: '04'
+                font: $font-400-md-pl
+        
 

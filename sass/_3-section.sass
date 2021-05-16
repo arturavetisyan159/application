@@ -1,0 +1,55 @@
+@import "_variables"
+
+section
+    .container-3
+        max-width: 653px
+        margin: 0 auto
+        .woman-slider
+            &__wrapper
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                .woman
+                    padding-bottom: 25px
+                .elena
+                    font: $font-700-sm-op
+                    color: #444348
+                    line-height: 27px
+                .student
+                    font-family: 'Avenir Next', sans-serif
+                    font-size: 16px
+                    font-weight: 600
+                    color: #444348
+                    padding-bottom: 20px
+                .review
+                    font: $font-400-md-op
+                    font-style: italic
+                    color: #444348
+                    text-align: center
+                    line-height: 24px
+
+/* Настройка слайдера */
+.woman-slider
+    .slick-dots
+        bottom: -45px
+        li
+            list-style: none
+        button
+            &::before
+                font-size: 0
+                width: 10px
+                height: 10px
+                background-color: transparent
+                border-radius: 50%
+                border: 1px solid #B3B3B3
+
+.woman-slider
+    .slick-dots
+        li
+            .slick-active
+                button
+                    &::before
+                        background-color: #B3B3B3
+        
+
