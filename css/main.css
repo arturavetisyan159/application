@@ -284,33 +284,33 @@ header .header-back {
 
 /* FONTS */
 /*COLORS*/
-section {
-  padding-bottom: 100px;
+.third {
+  padding-bottom: 173px;
 }
 
-section .container-3 {
+.third .container-3 {
   max-width: 653px;
   margin: 0 auto;
 }
 
-section .container-3 .woman-slider__wrapper {
+.third .container-3 .woman-slider__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-section .container-3 .woman-slider__wrapper .woman {
+.third .container-3 .woman-slider__wrapper .woman {
   padding-bottom: 25px;
 }
 
-section .container-3 .woman-slider__wrapper .elena {
+.third .container-3 .woman-slider__wrapper .elena {
   font: 700 18px "Open sans", sans-serif;
   color: #444348;
   line-height: 27px;
 }
 
-section .container-3 .woman-slider__wrapper .student {
+.third .container-3 .woman-slider__wrapper .student {
   font-family: 'Avenir Next', sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -318,7 +318,7 @@ section .container-3 .woman-slider__wrapper .student {
   padding-bottom: 20px;
 }
 
-section .container-3 .woman-slider__wrapper .review {
+.third .container-3 .woman-slider__wrapper .review {
   font: 400 16px "Open sans", sans-serif;
   font-style: italic;
   color: #444348;
@@ -373,41 +373,54 @@ section .container-3 .woman-slider__wrapper .review {
 
 /* FONTS */
 /*COLORS*/
-section {
+.fourth {
   z-index: 1;
+  position: relative;
+  padding-bottom: 172px;
 }
 
-section .container-4 {
+.fourth .bg {
+  position: absolute;
+  z-index: -2;
+  top: -10%;
+}
+
+.fourth .container-4 {
   width: 1180px;
   height: 450px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding-bottom: 100px;
 }
 
-section .container-4 .text-block-4 {
+.fourth .container-4 .text-block-4 {
   padding-bottom: 40px;
   font: 700 28px "Playfair Display", serif;
 }
 
-section .container-4 .furniture-types-4 {
+.fourth .container-4 .furniture-types-4 {
   padding-bottom: 25px;
 }
 
-section .container-4 .furniture-types-4 .type {
+.fourth .container-4 .furniture-types-4 .type {
   padding-right: 49px;
   color: #5a5a5a;
   font: 600 16px "Open sans", sans-serif;
   cursor: pointer;
 }
 
-section .container-4 .chairs-catalogue-4 {
+.fourth .container-4 .furniture-types-4 .type:hover {
+  color: #303032;
+}
+
+.fourth .container-4 .chairs-catalogue-4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-section .container-4 .chairs-catalogue-4 .with-button button {
+.fourth .container-4 .chairs-catalogue-4 .with-button button {
   width: 209px;
   height: 59px;
   background-color: #303032;
@@ -415,9 +428,14 @@ section .container-4 .chairs-catalogue-4 .with-button button {
   font: 400 16px "Open sans", sans-serif;
   border: none;
   opacity: 0;
+  cursor: pointer;
 }
 
-section .container-4 .chairs-catalogue-4 .with-button .catalogue-block {
+.fourth .container-4 .chairs-catalogue-4 .with-button button:hover {
+  background-color: #0b0b0b;
+}
+
+.fourth .container-4 .chairs-catalogue-4 .with-button .catalogue-block {
   background-color: #ffffff;
   width: 208px;
   height: 400px;
@@ -426,7 +444,7 @@ section .container-4 .chairs-catalogue-4 .with-button .catalogue-block {
   cursor: pointer;
 }
 
-section .container-4 .chairs-catalogue-4 .with-button .catalogue-block .block-4__heading {
+.fourth .container-4 .chairs-catalogue-4 .with-button .catalogue-block .block-4__heading {
   font: 400 16px "Open sans", sans-serif;
   line-height: 22px;
   color: #303032;
@@ -434,19 +452,76 @@ section .container-4 .chairs-catalogue-4 .with-button .catalogue-block .block-4_
   padding-left: 12px;
 }
 
-section .container-4 .chairs-catalogue-4 .with-button .catalogue-block .price-4 {
+.fourth .container-4 .chairs-catalogue-4 .with-button .catalogue-block .price-4 {
   padding-left: 12px;
 }
 
-section .container-4 .chairs-catalogue-4 .with-button .catalogue-block .price-4 .new {
+.fourth .container-4 .chairs-catalogue-4 .with-button .catalogue-block .price-4 .new {
   font: 600 28px "Open sans", sans-serif;
   color: #303032;
   line-height: 38px;
 }
 
-section .container-4 .chairs-catalogue-4 .with-button .catalogue-block .price-4 .old {
+.fourth .container-4 .chairs-catalogue-4 .with-button .catalogue-block .price-4 .old {
   font: 600 16px "Open sans", sans-serif;
   color: #979798;
+}
+
+.fourth .container-4 .chairs-catalogue-4 .with-button:hover button {
+  opacity: 1;
+}
+
+.fourth .container-4 .chairs-catalogue-4 .with-button:hover .catalogue-block {
+  border-top: 4px solid #303032;
+}
+
+/* FONTS */
+/*COLORS*/
+.fifth {
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 40px;
+  padding-top: 80px;
+}
+
+.fifth .container-5 {
+  width: 1160px;
+  height: 92px;
+  margin: 0 auto;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fifth .container-5 .upper-5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifth .container-5 .upper-5 .part-5 {
+  font: 400 14px "Open sans", sans-serif;
+  color: #303032;
+  cursor: pointer;
+}
+
+.fifth .container-5 .upper-5 .part-5:hover {
+  color: #0b0b0b;
+}
+
+.fifth .container-5 .upper-5 .logo-5 {
+  padding-right: 633px;
+  cursor: pointer;
+}
+
+.fifth .container-5 .lower-5 {
+  display: flex;
+  color: #303032;
+  font: 400 16px "Open sans", sans-serif;
+}
+
+.fifth .container-5 .lower-5 .tel {
+  padding-right: 50px;
 }
 
 body {

@@ -1,12 +1,19 @@
 @import "_variables"
-section
+.fourth
     z-index: 1
+    position: relative
+    padding-bottom: 172px
+    .bg
+        position: absolute
+        z-index: -2
+        top: -10%
     .container-4
         width: 1180px
         height: 450px
         margin: 0 auto
         display: flex
         flex-direction: column
+        padding-bottom: 100px
         .text-block-4
             padding-bottom: 40px
             font: $font-700-sm-pl
@@ -17,6 +24,8 @@ section
                 color: darken(grey, 15%)
                 font: $font-600-sm-op
                 cursor: pointer
+                &:hover
+                    color: #303032
         .chairs-catalogue-4
             display: flex
             flex-wrap: wrap
@@ -30,6 +39,9 @@ section
                     font: $font-400-md-op
                     border: none
                     opacity: 0
+                    cursor: pointer
+                    &:hover
+                        background-color: darken(#303032, 15%)
                 .catalogue-block
                     background-color: #ffffff
                     width: 208px
@@ -52,3 +64,8 @@ section
                         .old
                             font: $font-600-sm-op
                             color:#979798
+                &:hover
+                    button
+                        opacity: 1
+                    .catalogue-block
+                        border-top: 4px solid #303032
