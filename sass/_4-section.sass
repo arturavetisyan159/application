@@ -1,0 +1,54 @@
+@import "_variables"
+section
+    z-index: 1
+    .container-4
+        width: 1180px
+        height: 450px
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        .text-block-4
+            padding-bottom: 40px
+            font: $font-700-sm-pl
+        .furniture-types-4
+            padding-bottom: 25px
+            .type
+                padding-right: 49px
+                color: darken(grey, 15%)
+                font: $font-600-sm-op
+                cursor: pointer
+        .chairs-catalogue-4
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+            .with-button
+                button
+                    width: 209px
+                    height: 59px
+                    background-color: #303032
+                    color: white
+                    font: $font-400-md-op
+                    border: none
+                    opacity: 0
+                .catalogue-block
+                    background-color: #ffffff
+                    width: 208px
+                    height: 400px
+                    display: flex
+                    flex-direction: column
+                    cursor: pointer
+                    .block-4__heading
+                        font: $font-400-md-op
+                        line-height: 22px
+                        color: #303032
+                        padding-top: 20px
+                        padding-left: 12px
+                    .price-4
+                        padding-left: 12px
+                        .new
+                            font: $font-600-md-op
+                            color: #303032
+                            line-height: 38px
+                        .old
+                            font: $font-600-sm-op
+                            color:#979798

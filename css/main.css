@@ -284,6 +284,10 @@ header .header-back {
 
 /* FONTS */
 /*COLORS*/
+section {
+  padding-bottom: 100px;
+}
+
 section .container-3 {
   max-width: 653px;
   margin: 0 auto;
@@ -342,6 +346,107 @@ section .container-3 .woman-slider__wrapper .review {
 
 .woman-slider .slick-dots li .slick-active button::before {
   background-color: #B3B3B3;
+}
+
+.slider-arrow {
+  position: absolute;
+  bottom: -42px;
+  z-index: 99;
+  width: 34px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.slider-arrow__left {
+  background: url(../img/arrow-prev.svg) center no-repeat;
+  right: 100%;
+  top: 50%;
+  margin-right: 100px;
+}
+
+.slider-arrow__right {
+  background: url(../img/arrow-next.svg) center no-repeat;
+  left: 100%;
+  top: 50%;
+  margin-left: 100px;
+}
+
+/* FONTS */
+/*COLORS*/
+section {
+  z-index: 1;
+}
+
+section .container-4 {
+  width: 1180px;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+section .container-4 .text-block-4 {
+  padding-bottom: 40px;
+  font: 700 28px "Playfair Display", serif;
+}
+
+section .container-4 .furniture-types-4 {
+  padding-bottom: 25px;
+}
+
+section .container-4 .furniture-types-4 .type {
+  padding-right: 49px;
+  color: #5a5a5a;
+  font: 600 16px "Open sans", sans-serif;
+  cursor: pointer;
+}
+
+section .container-4 .chairs-catalogue-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section .container-4 .chairs-catalogue-4 .with-button button {
+  width: 209px;
+  height: 59px;
+  background-color: #303032;
+  color: white;
+  font: 400 16px "Open sans", sans-serif;
+  border: none;
+  opacity: 0;
+}
+
+section .container-4 .chairs-catalogue-4 .with-button .catalogue-block {
+  background-color: #ffffff;
+  width: 208px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+section .container-4 .chairs-catalogue-4 .with-button .catalogue-block .block-4__heading {
+  font: 400 16px "Open sans", sans-serif;
+  line-height: 22px;
+  color: #303032;
+  padding-top: 20px;
+  padding-left: 12px;
+}
+
+section .container-4 .chairs-catalogue-4 .with-button .catalogue-block .price-4 {
+  padding-left: 12px;
+}
+
+section .container-4 .chairs-catalogue-4 .with-button .catalogue-block .price-4 .new {
+  font: 600 28px "Open sans", sans-serif;
+  color: #303032;
+  line-height: 38px;
+}
+
+section .container-4 .chairs-catalogue-4 .with-button .catalogue-block .price-4 .old {
+  font: 600 16px "Open sans", sans-serif;
+  color: #979798;
 }
 
 body {
